@@ -1,0 +1,28 @@
+.ImageOfPost {
+    height: 500px;
+    width: auto;
+    transform: scale(1.2) translate(0%, -25%);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .PostContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .PostText {
+    width: 900px;
+  }
+  .PostText h3 {
+    font-size: 25px;
+    color: #343638;
+  }
+  .PostText p {
+    font-size: 16px;
+    color: #54595f;
+  }
+  
+  .loginErrorText {
+    color: rgb(150, 77, 22);
+  }
